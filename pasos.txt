@@ -12,3 +12,19 @@ Es para chequear que todo esté bien o esté todo mal
 esto permite agregar las modificaciones que hayamos hecho
 
 4. git commit -m "Un mensaje cualquiera"
+
+5. git branch nombre
+
+Crea una rama con el nombre que quieran (cambiar la palabra nombre por el nombre de la rama), ejemplo: 
+git branch rama-nueva
+
+6. git checkout rama-nueva
+
+Moverse entre ramas. Luego del checkout se escribe el nombre de la rama a la que queremos ir.
+
+7. git merge rama-nueva
+
+Fusiona la rama principal con la nueva. PARA QUE ESTO FUNCIONE SIEMPRE DEBEN ASEGURARSE DE TENER TODO ACTUALIZADO TANTO EN TODAS LAS RAMAS QUE TENGAN.
+
+TAMBIEN PARA PODER FUSIONAR LA MAIN CON OTRA RAMA, SIEMPRE DEBEN ASEGURARSE DE ESTAR DENTRO DE LA RAMA MAIN.
+
